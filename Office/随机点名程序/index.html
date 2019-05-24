@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>JS课堂提问随机点名程序 </title>
+
+<style>
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.names {
+	width: 100%;
+	height: 500px;
+	line-height: 500px;
+	font-size: 70px;
+	text-align: center;
+	color: gray;
+}
+
+.btn {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	position: fixed;
+	bottom: 0px;
+}
+
+.start,.stop {
+	width: 50%;
+	float: left;
+	background-color: gray;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+body{
+	font-family: "楷体"
+}
+</style>
+
+</head>
+<body>
+
+<div class="names" id="names"></div>
+<div class="btn">
+	<div class="start" onclick=
+showNames();;
+>
+		开始提问
+	</div>
+	<div class="stop" onclick=
+stop();
+>
+		停
+	</div>
+</div>
+<script type="text/javascript">
+//定义一个定时器
+var t;
+var i = 0;
+
+//定义一个数组来存放所有同学的名字
+var names = new Array('施志锋','吴育潭','李伟宇','林俊杰','张龙鑫','林周隆');
+
+//生成名字
+function showNames() {
+	clearInterval(t);
+	t = setInterval(function() {
+
+		//开始生成名字
+			document.getElementById("names").innerHTML = names[i];
+			i++;
+			if (i == names.length - 1) {
+				i = 0;
+			}
+		}, 50);
+}
+function stop() {
+	clearInterval(t);
+}
+</script>
+
+</body>
+</html>
