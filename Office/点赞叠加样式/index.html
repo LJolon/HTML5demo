@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>点赞图标数字叠加</title>
+
+<style type="text/css">
+   ul{list-style:none;width:40px;height:40px}
+   .li{width:40px;height:40px}
+   .img26{width:30px;height:30px;text-align:center;margin-left:5px;cursor: pointer;}
+   .p{text-align: center;}
+</style>
+
+</head>
+<body>
+<center>
+<div class="li">
+	<ul>
+		<li  class="li">
+			<img  class="img26" src="images/yizan.jpg" />
+			<p class="likes" class="p">&nbsp;</p>
+		</li>
+	</ul>
+</div>
+</center>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+	$(function () {
+		for (var i = 0; i < $('.likes').length; i++) {
+			//var ran = Math.floor(Math.random() * 1000 + 1)
+			var ran = 0
+			$('.likes').eq(i).text(ran)	
+		}
+		$("img").click(function () {
+			var num = $(this).next().text()
+			num++;
+			$(this).next().text(num);
+		});
+	});
+</script>
+
+</body>
+</html>
