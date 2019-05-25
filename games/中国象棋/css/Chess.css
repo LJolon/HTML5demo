@@ -21,7 +21,7 @@
     border-radius: 500px;
 }
 .C{
-    font-family: "微软雅黑 light", "微软雅黑", Arial,sans-serif;
+    font-family: "楷体";
     width: 40px;
     height: 40px;
     font-size: 25px;
@@ -37,72 +37,72 @@
     transform: scale(1.1,1.1);
 }*/
 .BR{
-    border-color: #6ec672;
-    color: #f3f3f3;
-    background-color: #46804a;
+    border-color: white;
+    color: white;
+    background-color: #8A4B08;
 }
 .BB{
-    border-color: #6ec672;
-    color: #232323;
-    background-color: #46804a;
+    border-color: white;
+    color:  white;
+    background-color: #8A4B08;
 }
 .PR{
-    border-color: #c69c13;
-    color: #f3f3f3;
-    background-color: #805435;
+    border-color:white;
+    color:  white;
+    background-color: #8A4B08;
 }
 .PB{
-    border-color: #c69c13;
-    color: #232323;
-    background-color: #805435;
+    border-color:white;
+    color:  white;
+    background-color: #8A4B08;
 }
 .JR{
-    border-color: #c6385a;
-    color: #f3f3f3;
-    background-color: rgba(128, 43, 34, 0.75);
+    border-color: white;
+    color:  white;
+    background-color: #8A4B08;
 }
 .JB{
-    border-color: #c6385a;
-    color: #232323;
-    background-color: rgba(128, 43, 34, 0.75);
+    border-color: white;
+    color:  white;
+    background-color: #8A4B08;
 }
 .MR{
-    border-color: #c6a902;
-    color: #f3f3f3;
-    background-color: #806328;
+    border-color: white;
+    color:  white;
+    background-color: #8A4B08;
 }
 .MB{
-    border-color: #c6a902;
-    color: #232323;
-    background-color: #806328;
+    border-color: white;
+    color:  white;
+    background-color: #8A4B08;
 }
 .XR{
-    border-color: #2c806e;
-    color: #f3f3f3;
-    background-color: #5d9eb2;
+    border-color: white;
+    color:  white;
+    background-color: #8A4B08;
 }
 .XB{
-    border-color: #2c806e;
-    color: #232323;
-    background-color: #5d9eb2;
+    border-color:white;
+    color:  white;
+    background-color: #8A4B08;
 }
 .SR{
-    border-color: #bebebe;
-    color: #820725;
-    background-color: rgba(216, 216, 216, 0.95);
+    border-color:white;
+    color:  white;
+    background-color: #8A4B08;
 }
 .SB{
-    border-color: #bebebe;
-    color: #232323;
-    background-color: rgba(216, 216, 216, 0.95);
+    border-color: white;
+    color:  white;
+    background-color: #8A4B08;
 }
 .J{
-    border-color: #820725;
-    color: #820725;
-    background-color: rgba(0, 0, 0, 0.25);
+    border-color:white;
+    color:  white;
+    background-color: #8A4B08;
 }
 .S{
-    border-color: #232323;
-    color: #232323;
-    background-color: rgba(0, 0, 0, 0.25);
+    border-color:white;
+    color:  white;
+    background-color: #8A4B08;
 }
